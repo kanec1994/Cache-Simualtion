@@ -1,41 +1,5 @@
-CS320 Computer Architecture
-Spring 2016
-Project 2 README FILE
-
-Due Date: 05/01/2016
-Submission Date: 05/01/2016
 Author(s): Casey Kane
-BU-ID: ckane2
-BNumber: B00387747
 e-mail(s): ckane2@binghamton.edu
 
 PURPOSE:
-Create the different cache simulation methods described in the project description
-
-PERCENT COMPLETE: 90%
-
-PARTS THAT ARE NOT COMPLETE: Hot/Cold (off by about 10,000 for each trace
-
-BUGS: N/A
-
-FILES:
-CacheSimulator.cpp makefile Readme.txt
-
-SAMPLE OUTPUT:
-837589,1122102; 932528,1122102; 972661,1122102; 1005547,1122102;
-993999,1122102; 999852,1122102; 999315,1122102; 1000092,1122102;
-1000500,1122102;
-982313,1122102;
-991430,1122102; 996265,1122102; 996942,1122102; 997995,1122102;
-996682,1122102; 1001716,1122102; 1002738,1122102; 1003417,1122102;
-992669,1122102; 998384,1122102; 999371,1122102; 1000391,1122102;
-
-TO RUN:
-make
-./cache-sim <input file> <output file>
-
-EXTRA CREDIT: No
-
-BIBLIOGRAPHY: N/A
-
-MISCELLANEOUS: N/A
+Implement Direct Mapped, Set Associative, Fully Associative, Hot Cold, Set Asscoiative Store Miss, Set Associative Prefetch, Prefetch Miss cache simulation techniques
